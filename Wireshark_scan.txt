@@ -27,7 +27,7 @@ No.     Time           Source                Destination           Protocol Leng
 
 Frame 764: 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface eth0, id 0
 Ethernet II, Src: PCSSystemtec_2f:97:c7 (08:00:27:2f:97:c7), Dst: 52:55:0a:00:02:03 (52:55:0a:00:02:03)
-Internet Protocol Version 4, Src: xx.x.x.xx, Dst: 10.0.2.3
+Internet Protocol Version 4, Src: xx.x.x.xx, Dst: xx.x.x.x
 Transmission Control Protocol, Src Port: 36217, Dst Port: 5269, Seq: 0, Len: 0
 
 No.     Time           Source                Destination           Protocol Length Info
