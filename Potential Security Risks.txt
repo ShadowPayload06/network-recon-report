@@ -1,0 +1,20 @@
+Potential Security Risks:
+1. **Outdated Software**  
+   - Debian 7 is from ~2013 and may lack critical security patches.
+   - OpenSSH 10.0p2 is vulnerable to known exploits.
+
+2. **Known Vulnerabilities (CVEs)**  
+   - CVE-2024-6387: Race condition in sshd signal handling.  
+   - CVE-2025-26465: Host key verification flaw enabling MITM attacks.
+
+3. **Brute-force Attack Surface**  
+   - SSH is frequently targeted by bots and attackers using password guessing.
+
+4. **Weak Configuration Risks**  
+   - If root login is enabled or password authentication is allowed, system is more vulnerable.
+
+5. **Internet Exposure**  
+   - If the host is publicly accessible, attackers can scan and target it easily.
+
+6. **Lack of Monitoring**  
+   - Without proper logging, unauthorized access attempts may go unnoticed.

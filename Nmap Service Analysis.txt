@@ -1,0 +1,25 @@
+Nmap Service Analysis Report – Host: XX.X.X.XX
+
+Scan Summary:
+- Scan Type: TCP SYN + Service Detection
+- Date: 2025-09-22
+- Host IP: XX.X.X.XX
+- Open Port: 22/tcp
+- Service: OpenSSH 10.0p2
+- OS: Debian 7 (Linux Kernel)
+
+Research Common Services on Port 22
+- Port 22 → SSH (Secure Shell)
+- Service: OpenSSH 10.0p2
+- OS: Debian 7
+- Purpose: Remote login and command execution over encrypted channel
+
+Security Considerations:
+- Debian 7 is outdated (released ~2013), increasing vulnerability risk
+- OpenSSH 10.0p2 may be affected by known CVEs:
+  - CVE-2024-6387: Race condition in sshd signal handling
+  - CVE-2025-26465: Host key verification flaw
+- Brute-force attacks are common on SSH
+- Misconfigurations like root login or weak ciphers can be exploited
+
+End of Report
