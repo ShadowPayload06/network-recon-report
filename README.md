@@ -1,5 +1,4 @@
 🔍 Nmap Network Recon & Security Analysis
-
 This repository documents a basic network reconnaissance and vulnerability assessment workflow using **Nmap** and **Wireshark**. It was created as part of an internship project focused on identifying open ports, analyzing services, and evaluating potential security risks in a local network.
 ---
 📁 Files Included
